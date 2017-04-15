@@ -55,11 +55,18 @@ Go to Github.com and start a new repository called username.github.io. Make sure
 you DON'T include a README file.
 
 You're still in the username.github.io directory on your local machine, right?
-Get there, and run `git init`
+Navigate there, and run
+
+`git init`
+
 `git remote add origin https://github.com/username/username.github.io.git`
+
 `git remove -v` (verifies the new URL)
+
 `git add .`
+
 `git commit -m "First commit"`
+
 And `git push origin master`
 
 And your local build of your website should now be pushed to your Github, and
