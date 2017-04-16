@@ -1,3 +1,9 @@
+---
+layout: page
+title: Interviewing
+permalink: /interviewing/
+---
+
 I recently attended an interview workshop held by Google at San Francisco State University.
 While fascinating, one of the most profound effects of this talk on me was to make
 me realize "Oh God Oh God I need to study." I started looking for different forms
@@ -64,4 +70,3 @@ an interview for a software engineer as a new graduate.
   * Graph Theory
   * Linear Algebra
   * Probability and Statistics
-  
