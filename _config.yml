@@ -13,21 +13,33 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Much Code
-email: peter2mutch@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A site where I blog about code, interview prep, and anything else that
-  inspires me. Doubles as a portfolio for past work when applicable.
+title: Peter Mutch
+email: peterfmutch@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tweettoomutch
+url: "peterpanning.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  peterpanning
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
+theme: jekyll-theme-cayman
+plugins:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+
+# Collections allow iteration
+
+collections:
+  - projects
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
