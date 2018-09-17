@@ -1,1 +1,1 @@
-# peterpanning.github.io
+A simple portfolio site, powered by Jekyll and GitHub Pages. 
